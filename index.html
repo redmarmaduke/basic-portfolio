@@ -1,19 +1,36 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta charset="utf-8">
     <title>Your Name</title>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </header>
-    <article>
+    <div id="header-div">
+        <div id="header-contents" class="content clearfix">
+            <header>
+                <h1>Manuel Nunes</h1>
+            </header>
+            <div id="nav-div">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">About</a> |</li>
+                        <li><a href="#">Portfolio</a> |</li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <article class="content sticky-wrapper">
         <h1>About Me</h1>
         <hr>
-        <img src="#" alt="">
+        <img id="image" src="https://via.placeholder.com/200" alt="200x200 image">
         <p>Text</p>
+        <div class="sticky-push"></div>
     </article>
+    <footer class="sticky-footer">
+        Copyright &copy;
+    </footer>
 </body>
+</html>
