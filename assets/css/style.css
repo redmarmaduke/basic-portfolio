@@ -119,7 +119,6 @@ body {
 }
 
 #image {
-    margin-right: 15px;
     float: left;
 }
 
@@ -131,7 +130,8 @@ html, body {
 .main-content {
     margin: 20px 0 0 0;
     padding: 20px 40px;
-    color: #777777;    
+    min-height: 500px;
+    color: #777777; 
 }
 
 section h1 {
@@ -140,9 +140,12 @@ section h1 {
 }
 
 footer {
-    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
+    color: white;
     text-align: center;
 }
 
@@ -153,4 +156,13 @@ footer {
 
 .sticky-footer, .sticky-push {
     height: 50px;
+}
+
+img {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-bottom: 20px;
 }
