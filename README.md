@@ -8,30 +8,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Git, SVN, Git Desktop or Microsoft Visual Studio or some disk drive
+space to unzip the contents of the repository.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+1) Visit https://github.com/redmarmaduke/basic-portfolio.
+2) Select the Clone or Download button
+3) Select the most appropriate format/method for download. 
+```
+ex. using the command line git tool
 
-Say what the step will be
+git clone https://github.com/redmarmaduke/basic-portfolio.git
 
 ```
-Give the example
-```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+4) Open up the index.html file present in your favorite browser.
 
 ## Built With
 
@@ -45,13 +37,13 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Authors
 
-* **YOUR NAME** 
+* **Manuel Nunes** 
 
-- [Link to Portfolio Site](#)
+- [Link to Portfolio Site](https://redmarmaduke.github.io/basic-portfolio/)
 - [Link to Github](https://github.com/redmarmaduke/)
 - [Link to LinkedIn](https://www.linkedin.com/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://redmarmaduke.github.io/basic-portfolio/contributors) who participated in this project.
 
 ## License
 
@@ -59,7 +51,5 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
 * https://css-tricks.com/couple-takes-sticky-footer/
 * https://www.toptal.com/designers/subtlepatterns/congruent-pentagon/
-* 
