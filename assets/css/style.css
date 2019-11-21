@@ -128,7 +128,7 @@ html, body {
     margin: 0;    
 }
 
-#about-me-content {
+.main-content {
     margin: 20px 0 0 0;
     padding: 20px 40px;
     color: #777777;    
