@@ -176,3 +176,11 @@ img {
 hr {
     margin-bottom: 20px;
 }
+
+input[type=button] {
+    font-size: .95em;
+    width: auto;
+    padding: 5px 15px;
+    background-color: #4aaaa5;
+    color: white;
+}
