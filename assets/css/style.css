@@ -31,40 +31,36 @@ h6 {
 
 
 /*
-  Header container for the entire width of the screen
-  with a bottom border.
+  Hedaer container.
 */
-#header-div {
+header {
     background-color: #ffffff;
     border-color: #cccccc;
     width: 100%;
     padding: 0;
     margin: 0;
-    margin-bottom: 15px;
     border-bottom: 2px solid #cccccc;
 }
 
-/*
-  Flex formatting container for the header.
-*/
-#header-contents {
+.header-content {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
 }
 
 /* Header */
-header {
+#header-name {
     background-color: #4aaaa5;
     color: #fff;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 1.5em 2em;
     margin-left: 0;
     margin-right: 0;
+    width: auto;
 }
 
 /* Navigation tag */
-#nav-div {
+#header-navbar {
     padding: 0;
     margin: 0;
     vertical-align: middle;
@@ -102,9 +98,7 @@ header {
  */
 .content {
     width: 960px;
-    margin: auto;
-    padding: 0;
-    margin:  0;
+    margin: 0 auto;
     background-color: white;
 }
 
@@ -116,7 +110,8 @@ html {
 }
 
 body {
-    background-color: #f2f2f2;
+    background-image: url('../images/congruent_pentagon.png');
+    /* background-color: #f2f2f2; */
     padding: 0;
 }
 
@@ -127,17 +122,18 @@ body {
 
 html, body {
     height: 100%;
-    margin: 0;
+    margin: 0;    
 }
 
-article {
-    margin: 15px;
-    padding: 15px;
-    color: #777777;
+#about-me-content {
+    margin: 20px 0 0 0;
+    padding: 20px 40px;
+    color: #777777;    
 }
 
-article h1 {
+section h1 {
     color: #4aaaa5;
+    vertical-align:  middle;
 }
 
 footer {

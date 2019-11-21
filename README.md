@@ -60,5 +60,6 @@ This project is licensed under the MIT License
 ## Acknowledgments
 
 * Hat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
-* Inspiration
-* etc
+* https://css-tricks.com/couple-takes-sticky-footer/
+* https://www.toptal.com/designers/subtlepatterns/congruent-pentagon/
+* 
