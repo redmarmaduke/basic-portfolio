@@ -128,10 +128,6 @@ body {
     padding: 0;
 }
 
-#image {
-    float: left;
-}
-
 html, body {
     height: 100%;
     margin: 0;    
@@ -157,6 +153,7 @@ footer {
     background-color: #666666;
     color: white;
     text-align: center;
+    padding-bottom: 4px;
 }
 
 .sticky-wrapper {
@@ -166,11 +163,6 @@ footer {
 
 .sticky-footer, .sticky-push {
     height: 50px;
-}
-
-img {
-    margin-right: 30px;
-    margin-bottom: 30px;
 }
 
 hr {
@@ -187,12 +179,37 @@ input[type=button] {
 
 input[type=text] {
     width: 100%;
-    padding: 5px 0px;
+    padding: 5px 5px;
     margin-bottom: 10px;
     margin-top: 5px;    
+    color: #9999b3;
 }
 
 textarea {
     width: 100%;
     resize: vertical;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;    
+}
+
+#me {
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    margin-right: -38px;
+    padding: 0;
+    float: left;
+}
+
+#me-image {
+    display: block;
+    width: 66.6%;
+    margin-bottom: -28.3%;
+    margin-top: -5%;
+    margin-right: -33.3%;
+}
+
+.portfolio-image {
+    margin: 0 20px 20px 0;
 }
