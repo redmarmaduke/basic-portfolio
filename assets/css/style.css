@@ -6,26 +6,32 @@ h1, h2, h3, h3, h4, h5, h6 {
 }
 
 h1 {
+    color: #4aaaa5;
     font-size: 2em;
 }
 
 h2 {
+    color: #4aaaa5;
     font-size: 1.5em;
 }
 
 h3 {
+    color: #4aaaa5;
     font-size: 1.17em;
 }
 
 h4 {
+    color: #4aaaa5;
     font-size: 1em;
 }
 
 h5 {
+    color: #4aaaa5;
     font-size: .83em;
 }
 
 h6 {
+    color: #4aaaa5;
     font-size: .67em;
 }
 
@@ -47,16 +53,20 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 /* Header */
-#header-name {
-    background-color: #4aaaa5;
-    color: #fff;
+#header-name {  
+    background-color:  #4aaaa5;
     padding: 1.5em 2em;
     margin-left: 0;
     margin-right: 0;
     width: auto;
+}
+
+#header-name h1 {
+    color: #fff;
 }
 
 /* Navigation tag */
@@ -135,7 +145,7 @@ html, body {
 }
 
 section h1 {
-    color: #4aaaa5;
+    
     vertical-align:  middle;
 }
 
