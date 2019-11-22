@@ -34,12 +34,12 @@
             <form id="contact-content" class="main-content">
                 <h2>Contact</h2>
                 <hr>
-                Name<br>
-                <input type="text" name="name" value="John Smith"><br>
-                Email<br>
-                <input type="text" name="email" value="example@gmail.com"><br>
-                Message<br>
-                <textarea form="contact-content" rows="25" cols="80"></textarea><br>
+                <label for="name-input">Name</label>
+                <input type="text" id="name-input" name="contact_name" value="John Smith"><br>
+                <label for="email-input">E-Mail</label>
+                <input type="text" id="email-input" name="contact_email" value="example@gmail.com"><br>
+                <label for="message-input">Message</label>
+                <textarea form="contact-content" id="message-input" name="contact_message" rows="25" cols="80"></textarea><br>
                 <input type="button" value="Submit">
                 <div class="sticky-push"></div>
             </form>        
